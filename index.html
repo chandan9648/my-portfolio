@@ -7,20 +7,17 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style>
-      
-      * {  
-        
+      * {
         box-sizing: border-box;
-      } 
+      }
       html,
       body {
         width: 100%;
         height: 100%;
-      }    
-           
+      }
     </style>
-  </head> 
-  <body> 
+  </head>
+  <body>
     <main class="w-full py-8 font-[Halvetica_Now_Display]">
       <nav class="flex px-[7rem] justify-between items-center">
         <h1 class="text-2xl font-bold">Portfolio</h1>
@@ -29,7 +26,7 @@
           <a class="font-medium text-xl opacity-30" href="#">About</a>
           <a class="font-medium text-xl opacity-30" href="#">Contact</a>
           <a class="font-medium text-xl opacity-30" href="#">Work Together</a>
-        </div> 
+        </div>
       </nav>
       <section class="w-full mt-20 px-[7rem] flex justify-between items-end">
         <div class="leftheading">
@@ -37,9 +34,11 @@
           <h1 class="text-6xl font-bold -ml-1 tracking-tight leading-none">
             Chandan.
           </h1>
-        </div> 
+        </div>
         <div class="rightheading flex gap-3 items-center">
-          <h4 class="font-bold tracking-tighter timing">[ <span>06:11 PM</span> ]</h4>
+          <h4 class="font-bold tracking-tighter timing">
+            [ <span>06:11 PM</span> ]
+          </h4>
           <div class="w-32 h-[1px] bg-black"></div>
           <h3 class="font-medium tracking-tight text-xl">
             Creative FrontEnd Developer
@@ -49,11 +48,10 @@
       <section class="picture w-full px-[7rem] h-[28rem] mt-9">
         <img
           class="w-1/2 h-full ml-50 object-cover object-center"
-          src="WhatsApp Image 2025-02-12 at 14.10.30_ef82fb0b.jpg"
+          src="Assets/WhatsApp Image 2025-02-12 at 14.10.30_ef82fb0b.jpg"
           alt="photo" />
       </section>
       <section
-        
         class="about w-full px-[7rem] py-20 mt-30 flex justify-center items-start">
         <div class="relative text text-center w-2/3 bg-red-">
           <img class="absolute -bottom-30" src="Assets/css.png.png" alt="css" />
@@ -115,7 +113,6 @@
           <h1 class="text-6xl text-zinc-500 tracking-tighter font-medium">
             Escalation
           </h1>
-          
         </div>
         <div class="imagecontent w-full gap-10 flex">
           <div class="col flex flex-col gap-10 w-1/3 px-10 py-3">
@@ -222,10 +219,9 @@
         0
           ? (str += "PM")
           : (str += "AM");
-        document.querySelector(".timing").textContent= str;
+        document.querySelector(".timing").textContent = str;
       }
 
-      
       function changeDateAndTime() {
         var dt2 = new Date();
         var str =
@@ -248,4 +244,3 @@
     </script>
   </body>
 </html>
-
